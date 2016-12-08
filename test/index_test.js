@@ -42,7 +42,7 @@ describe('Your HTML Page', function() {
   });
 
   it('should have content for all `li` elements. @li', function() {
-    var message = "Make sure to include something you want to learn for each `li` element."
+    var message = "Make sure to include something you want to learn for each `li` element.";
     assert.notEqual(window.$('li:first').text(), '', message);
     assert.notEqual(window.$('li:last').text(), '', message);
   });
